@@ -1,0 +1,12 @@
+.formStyle{
+    align-items: center;
+    align-content: center;
+    box-shadow: 20px 10px 8px 2px #888888;
+    padding: 10px;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+.banner{
+    text-align: center;
+    margin-top: 50px;
+}

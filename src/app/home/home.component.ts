@@ -8,15 +8,19 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 export class HomeComponent {
   @ViewChild('widgetsContent', { read: ElementRef })
   public widgetsContent!: ElementRef<any>;
-
+  @ViewChild('foodContent', { read: ElementRef })
+  public foodContent!: ElementRef<any>;
   public scrollRight(): void {
-    console.log("right pressed");
-    
-    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft + 150), behavior: 'smooth' });
+    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft + 400), behavior: 'smooth' });
+  }
+  public scrollLeft(): void {
+    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft - 400), behavior: 'smooth' });
+  }
+  public scrollRightFood(): void {
+    this.foodContent.nativeElement.scrollTo({ left: (this.foodContent.nativeElement.scrollLeft + 700), behavior: 'smooth' });
   }
 
-  public scrollLeft(): void {
-    console.log("left ressed");
-    this.widgetsContent.nativeElement.scrollTo({ left: (this.widgetsContent.nativeElement.scrollLeft - 150), behavior: 'smooth' });
+  public scrollLeftFood(): void {
+    this.foodContent.nativeElement.scrollTo({ left: (this.foodContent.nativeElement.scrollLeft - 700), behavior: 'smooth' });
   }
 }
