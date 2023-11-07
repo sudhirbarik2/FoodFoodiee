@@ -1,12 +1,23 @@
 .formStyle{
     align-items: center;
     align-content: center;
-    box-shadow: 20px 10px 8px 2px #888888;
-    padding: 10px;
-    margin-top: 20px;
+    box-shadow: 20px 20px 8px 2px #888888;
+    padding: 30px;
+    margin-top: 10px;
+    background-color: #DDE6ED;
+    border-radius: 3% 3%;
+    
     /* border: 1px solid black; */
 }
 .banner{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
+}
+.Subbanner{
+    text-align: center;
+}
+.btnStyle{
+    align-items: center;
+    align-content: center;
+    margin-top: 5px;
 }

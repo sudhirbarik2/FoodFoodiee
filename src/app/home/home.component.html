@@ -1,78 +1,80 @@
-<div class="offersStyle">
-    <h2>Best offers for you !
-        <h1 class="arrowStyle">
-            <button class="btn bg-transparent" (click)="scrollLeft()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-                </svg>
-            </button>&nbsp;
-            <button class="btn bg-transparent" (click)="scrollRight()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                </svg>
-            </button>
-        </h1>
-
-    </h2>
-    <section class="product">
-        <div class="container-fluid">
-            <div class="slider-wrap" #widgetsContent>
-                <div class="slider-main">
-                    <!-- <img src="../../assets/offer1.png" alt="Offer"> -->
-                    <a href="#" class="card-link" style="margin-top: 14rem;">
-                        <div class="card cardStyle"
-                            style="background-image: url('../../assets/offer12.png'); background-repeat: no-repeat;"
-                            *ngFor='let in of [0,1,2,3,4,5,6];let i = index'>
-                            <div class="cardbodystyle">
-                                <button type="button" class="btn btn-lg btn-primary" disabled>Order now</button>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-</div>
-
-<div class="offersStyle">
-    <h2>Choose your food now  !!
-        <h1 class="arrowStyle">
-            <button class="btn bg-transparent" (click)="scrollLeftFood()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-                </svg>
-            </button>&nbsp;
-            <button class="btn bg-transparent" (click)="scrollRightFood()">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
-                </svg>
-            </button>
-        </h1>
-    </h2>
-    <section class="product">
-        <div class="container-fluid">
-            <div class="slider-wrap" #foodContent>
-                <div class="slider-main">
-                    <!-- <img src="../../assets/offer1.png" alt="Offer"> -->
-                    <a href="#" class="card-link" style="margin-top: 14rem;">
-                        <div class="card foodStyle " style="width: 10rem; height: 10rem;" *ngFor='let in of [0,1,2,3,4,5,6,7,9,9,10,11,12,13,14];let i = index'>
-                            <img src="../../assets/burger.png" class="card-img-top " alt="Rohit Sharma" style="margin-top: 25px;">
-                        </div>
-                    
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+<div class="">
+    <div class="offersStyle">
+        <h2>Best offers for you !
+            <h1 class="arrowStyle">
+                <button class="btn bg-transparent" (click)="scrollLeft()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                </button>&nbsp;
+                <button class="btn bg-transparent" (click)="scrollRight()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                    </svg>
+                </button>
+            </h1>
     
+        </h2>
+        <section class="product">
+            <div class="container-fluid">
+                <div class="slider-wrap" #widgetsContent>
+                    <div class="slider-main">
+                        <!-- <img src="../../assets/offer1.png" alt="Offer"> -->
+                        <a href="#" class="card-link" style="margin-top: 14rem;">
+                            <div class="card cardStyle"
+                                style="background-image: url('../../assets/offer12.png'); background-repeat: no-repeat;"
+                                *ngFor='let in of [0,1,2,3,4,5,6];let i = index'>
+                                <div class="cardbodystyle">
+                                    <button type="button" class="btn btn-lg btn-primary" disabled>Order now</button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+    
+    <div class="offersStyle">
+        <h2>Choose your food now  !!
+            <h1 class="arrowStyle">
+                <button class="btn bg-transparent" (click)="scrollLeftFood()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                </button>&nbsp;
+                <button class="btn bg-transparent" (click)="scrollRightFood()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                    </svg>
+                </button>
+            </h1>
+        </h2>
+        <section class="product">
+            <div class="container-fluid">
+                <div class="slider-wrap" #foodContent>
+                    <div class="slider-main">
+                        <!-- <img src="../../assets/offer1.png" alt="Offer"> -->
+                        <a href="#" class="card-link" style="margin-top: 14rem;">
+                            <div class="card foodStyle " style="width: 10rem; height: 10rem;" *ngFor='let in of [0,1,2,3,4,5,6,7,9,9,10,11,12,13,14];let i = index'>
+                                <img src="../../assets/burger.png" class="card-img-top " alt="Rohit Sharma" style="margin-top: 25px;">
+                            </div>
+                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        
+    </div>
 </div>
